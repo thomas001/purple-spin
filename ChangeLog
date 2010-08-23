@@ -1,5 +1,2 @@
-2009-08-03 thomas weidner <thomas_weidner@gmx.de>
-	* everything: first public release
-
-2009-07-11 thomas weidner <thomas_weidner@gmx.de>
-	* everything: initial release
+2010-08-23  Thomas Weidner  <thomas001le@googlemail.com>
+	* *: Use 'git log' to see the list of changes.

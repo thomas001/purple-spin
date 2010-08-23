@@ -14,7 +14,7 @@ spin_la_LDFLAGS = -module -avoid-version -shared @LDFLAGS@ @PURPLE_LIBS@ @GLIB_L
 SUBDIRS = po
 ACLOCAL_AMFLAGS = -I m4
 
-EXTRA_DIST = config.rpath m4/ChangeLog 
+#EXTRA_DIST = config.rpath m4/ChangeLog 
 
 if USE_PIDGIN
 spin_la_CFLAGS += @PIDGIN_CFLAGS@
