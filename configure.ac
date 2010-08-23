@@ -38,8 +38,11 @@ AM_PATH_GLIB_2_0([2.15.0],,[AC_MSG_ERROR([glib not found])])
 
 PKG_CHECK_MODULES(PURPLE,
 	[purple >= 2.5.7],
-	[datarootdir="`$PKG_CONFIG --variable=datadir purple`"
-	 libdir="$PURPLE_LIBDIR"],
+	[PURPLE_PLUGINDIR="`$PKG_CONFIG --variable=plugindir purple`"
+	 AS_IF([test "x$PURPLE_PLUGINDIR" = x],
+	       [AC_MSG_ERROR([libpurple found, but no plugindir defined])],
+	       [AC_MSG_NOTICE([libpurple plugin directory is $PURPLE_PLUGINDIR])
+	        AC_SUBST([PURPLE_PLUGINDIR])])],
 	[AC_MSG_ERROR([libpurple not found])])
 
 AM_PATH_XML2(,,[AC_MSG_ERROR([libxml2 not found])])
