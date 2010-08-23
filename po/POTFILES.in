@@ -1,0 +1,15 @@
+# List of source files which contain translatable strings.
+
+spin.c
+spin_web.c
+spin_friends.c
+spin_actions.c
+spin_userinfo.c
+spin_login.c
+spin_chat.c
+spin_mail.c
+spin_parse.c
+spin_notify.c
+spin_prefs.c
+spin_privacy.c
+spin_cmds.c

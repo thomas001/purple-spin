@@ -1,0 +1,520 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: thomas weidner <thomas_weidner@gmx.de>\n"
+"POT-Creation-Date: 2010-08-23 14:44+0200\n"
+"PO-Revision-Date: 2009-08-03 11:54+0200\n"
+"Last-Translator: thomas weidner <thomas_weidner@gmx.de>\n"
+"Language-Team: no team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: spin.c:367
+msgid "user is away"
+msgstr "Benutzer ist abwesend"
+
+#: spin.c:393
+msgid "ping timeout"
+msgstr "Ping Zeitüberschreitung"
+
+#: spin.c:556
+msgid "Server"
+msgstr "Server"
+
+#: spin.c:558
+msgid "Port"
+msgstr "Port"
+
+#: spin.c:564
+msgid "Always"
+msgstr "Immer"
+
+#: spin.c:569
+msgid "Never"
+msgstr "Nie"
+
+#: spin.c:574
+msgid "Only for non-buddys"
+msgstr "Außer bei Freunden"
+
+#: spin.c:578
+msgid "Show away auto replies"
+msgstr "Zeige automatische Antworten"
+
+#: spin.c:582
+msgid "Nickname regular expression"
+msgstr "Nick regulärer Ausdruck"
+
+#: spin.c:586
+msgid "Use secure login"
+msgstr "Sicheres einloggen verwenden"
+
+#: spin_friends.c:169
+msgid "could not receive friend list"
+msgstr "Konnte die Freundesliste nicht laden"
+
+#: spin_friends.c:182
+msgid "invalid friend list format"
+msgstr "Ungültiges Format der Freundesliste"
+
+#: spin_userinfo.c:95 spin_userinfo.c:188
+msgid "Image"
+msgstr "Bild"
+
+#: spin_userinfo.c:95
+msgid "loading..."
+msgstr "Lade..."
+
+#: spin_userinfo.c:199
+msgid "HTTP error"
+msgstr "HTTP Fehler"
+
+#: spin_userinfo.c:238 spin_userinfo.c:253
+msgid "Error"
+msgstr "Fehler"
+
+#: spin_userinfo.c:253
+msgid "HTML parse error"
+msgstr "HTML Parser Fehler"
+
+#: spin_userinfo.c:259
+msgid "More Info"
+msgstr "Mehr Informationen"
+
+#: spin_login.c:73
+msgid "could not create socket"
+msgstr "Konnte socket nicht erstellen"
+
+#: spin_login.c:95
+msgid "unable to get login reply from web server"
+msgstr "Keine Loginantwort vom Web-Server"
+
+#: spin_login.c:103 spin_login.c:113
+msgid "invalid json format received"
+msgstr "Ungültiges JSON Format erhalten"
+
+#: spin_login.c:131
+msgid "no session found in json"
+msgstr "Keine session in JSON Daten gefunden"
+
+#: spin_login.c:142
+msgid "no username found in json"
+msgstr "Keinen Benutzernamen in JSON Daten gefunden"
+
+#: spin_login.c:159
+msgid "Progress|Chat login"
+msgstr "Chat einloggen"
+
+#: spin_login.c:195
+msgid "invalid host or port"
+msgstr "Ungültiger Server oder Port"
+
+#: spin_login.c:207
+#, c-format
+msgid "error compiling nick regex: %s"
+msgstr "Fehler beim Kompilieren der Nick Regex: %s"
+
+#: spin_login.c:231
+msgid "Progress|Web login"
+msgstr "Web einloggen"
+
+#: spin_login.c:243
+#, fuzzy
+msgid "Invalid characters in username"
+msgstr "Ungültige Zeichen in Raum- oder Benutzernamen"
+
+#: spin_chat.c:46
+msgid "Room name:"
+msgstr "Raumname:"
+
+#: spin_chat.c:114 spin_chat.c:123
+msgid "Invalid room name"
+msgstr "Ungültiger Raumname"
+
+#: spin_chat.c:115 spin_cmds.c:60 spin_cmds.c:76
+msgid "Room names must not contain #"
+msgstr "Raumnamen dürfen kein # enthalten"
+
+#: spin_chat.c:124
+msgid "Room name contains invalid characters"
+msgstr "Raumname enthält ungültige Zeichen"
+
+#: spin_parse.c:35
+msgid "left the room"
+msgstr "Raum verlassen"
+
+#: spin_parse.c:36
+#, c-format
+msgid "kicked by %3$s%1$.0s%2$.0s"
+msgstr "gekickt von %3$s%1$.0s%2$.0s"
+
+#: spin_parse.c:37
+msgid "kicked by the server"
+msgstr "durch den Server gekickt"
+
+#: spin_parse.c:38
+msgid "you are banned"
+msgstr "Du bist gebannt"
+
+#: spin_parse.c:39
+#, c-format
+msgid "room %2$s is currently full%1$.0s"
+msgstr "Raum %2$s ist derzeit voll%1$.0s"
+
+#: spin_parse.c:40
+#, c-format
+msgid "room %2$s is closed%1$.0s"
+msgstr "Raum %2$s ist geschlossen%1$.0s"
+
+#: spin_parse.c:41
+msgid "creation of new rooms is not allowed"
+msgstr "Das Anlegen neuer Räume ist nicht erlaubt"
+
+#: spin_parse.c:42
+msgid "room is for registered users only"
+msgstr "Raum nur für registrierte Benutzer"
+
+#: spin_parse.c:43
+msgid "room is for VIP users only"
+msgstr "Raum nur für VIPs"
+
+#: spin_parse.c:44
+msgid "room could not be created: too many rooms"
+msgstr "Raum konnte nicht angelegt werden: zu viele Räume"
+
+#: spin_parse.c:45
+msgid "room could not be created: room name is illegal"
+msgstr "Raum konnte nicht angelegt werden: Raumname ist ungültig"
+
+#: spin_parse.c:46
+msgid "too long inactive"
+msgstr "zu lange stumm"
+
+#: spin_parse.c:47
+msgid "kicked of the server"
+msgstr "vom Server gekickt"
+
+#: spin_parse.c:98
+msgid "invalid coded room name received"
+msgstr "Ungültig kodierten Raumnamen erhalten"
+
+#: spin_parse.c:167
+msgid "Progress|Receiving Prefs"
+msgstr "Empfange Einstellungen"
+
+#: spin_parse.c:181
+msgid "chat server denied login"
+msgstr "Chat-Server hat das Einloggen abgelehnt"
+
+#: spin_parse.c:446
+#, c-format
+msgid "cannot join room %s"
+msgstr "Kann Raum %s nicht beitreten"
+
+#: spin_parse.c:448
+msgid "no known reason"
+msgstr "unbekannter Grund"
+
+#: spin_parse.c:462
+#, c-format
+msgid "You have left the room%s%s%s"
+msgstr "Du hast den Raum verlassen%s%s%s"
+
+#: spin_parse.c:523
+#, c-format
+msgid "You have been warned by %s: %s"
+msgstr "Du wurdest von %s verwarnt: %s"
+
+#: spin_parse.c:526
+#, c-format
+msgid "You have been warned by %s"
+msgstr "Du wurdest von %s verwarnt"
+
+#: spin_parse.c:539
+#, c-format
+msgid "%s has been warned by %s: %s"
+msgstr "%s wurde von %s verwarnt: %s"
+
+#: spin_parse.c:542
+#, c-format
+msgid "%s has been warned by %s"
+msgstr "%s wurde von %s verwarnt"
+
+#: spin_parse.c:670
+msgid "error sending message"
+msgstr "Fehler beim Senden der Nachicht"
+
+#: spin_parse.c:762
+#, c-format
+msgid "%2$s gives operator rights to %1$s"
+msgstr "%s erhält Operatorrechte durch %s"
+
+#: spin_parse.c:766
+#, c-format
+msgid "%2$s removes operator rights from %1$s"
+msgstr "%s verliert Operatorrechte durch %s"
+
+#: spin_parse.c:770
+#, c-format
+msgid "%2$s gives voice to %1$s"
+msgstr "%s hat die Stummschaltung von %s aufgehoben"
+
+#: spin_parse.c:774
+#, c-format
+msgid "%2$s removes voice from %1$s"
+msgstr "%s wurde von %s stummgeschalten"
+
+#: spin_parse.c:828
+msgid "Banned IP addresses:"
+msgstr "Gebannte IP Adressen:"
+
+#: spin_parse.c:856
+#, c-format
+msgid "IP address %1$s has been banned by %2$s"
+msgstr "IP Adresse %s wurde von %s gebannt"
+
+#: spin_parse.c:858
+#, c-format
+msgid "IP address %1$s's ban has been removed by %2$s"
+msgstr "Der Ban von IP Adresse %s wurde von %s entfernt"
+
+#: spin_parse.c:865
+msgid "The room locked for unregistered users"
+msgstr "Der Raum ist nur für registrierte Benutzer"
+
+#: spin_notify.c:35
+msgid "close"
+msgstr "schließen"
+
+#: spin_notify.c:69
+msgid "Nick changed!"
+msgstr "Nick geändert"
+
+#: spin_notify.c:69
+#, c-format
+msgid "%s is now known as %s"
+msgstr "%s hat sich in %s umbenannt"
+
+#: spin_notify.c:76
+msgid "Friend removed!"
+msgstr "Freund entfernt"
+
+#: spin_notify.c:77
+#, c-format
+msgid "%s is not any more on your friend list"
+msgstr "%s ist nichtmehr auf deiner Freundesliste"
+
+#: spin_notify.c:84
+msgid "Invitation!"
+msgstr "Einladung!"
+
+#: spin_notify.c:85
+#, c-format
+msgid "%s has invited you to a game %s"
+msgstr "%s hat dich auf eine Partie %s eingeladen"
+
+#: spin_notify.c:90
+msgid "New guestbook entry!"
+msgstr "Neuer Gästebucheintrag"
+
+#: spin_notify.c:91
+#, c-format
+msgid "%s has added a new entry to your guestbook"
+msgstr "%s hat dir etwas ins Gästebuch geschrieben"
+
+#: spin_notify.c:96
+msgid "New gift!"
+msgstr "Neues Geschenk!"
+
+#: spin_notify.c:96
+#, c-format
+msgid "%s has given you something"
+msgstr "%s hat dir etwas geschenkt"
+
+#: spin_prefs.c:43
+#, c-format
+msgid "Could not receive prefs: %s"
+msgstr "Konnte Einstellungen nicht empfangen: %s"
+
+#: spin_prefs.c:54
+msgid "Invalid prefs format received"
+msgstr "Einstellungen in ungültigem Format erhalten"
+
+#: spin_prefs.c:66
+msgid "Prefs not OK"
+msgstr "Einstellungen nicht OK"
+
+#: spin_privacy.c:47
+#, c-format
+msgid "Could not receive block list: %s"
+msgstr "Konnte die Block Liste nicht empfangen: %s"
+
+#: spin_privacy.c:95
+msgid "Invalid block list format received"
+msgstr "Block Liste in ungültigem Format empfangen"
+
+#: spin_privacy.c:132
+#, c-format
+msgid "Could not set privacy policy: %s"
+msgstr "Konnte den Blockmodus nicht setzen: %s"
+
+#: spin_privacy.c:158
+msgid "Unsupported privacy mode"
+msgstr "Nicht unterstützter Blockmodus"
+
+#: spin_privacy.c:159
+msgid "The selected privacy mode is not supported by spin.de"
+msgstr "Der gewählte Blockmodus wird von spin.de nicht unterstützt"
+
+#: spin_privacy.c:161
+msgid "The privacy mode will not be set server side"
+msgstr "Der Blockmodus wird auf dem Server nicht gesetzt werden"
+
+#: spin_privacy.c:190
+msgid "Permit lists not supported by spin.de"
+msgstr "Whitelists werden von spin.de nicht unterstützt"
+
+#: spin_privacy.c:191
+msgid ""
+"There is no server side permit list, so changes won't be visible outside "
+"this pidgin"
+msgstr ""
+"Es gibt keine Server-seitige Whitelist, Änderungen werden also außerhalb "
+"dieses Pidgins nicht sichtbar sein"
+
+#: spin_cmds.c:67 spin_cmds.c:83
+msgid "Invalid character in room or user name"
+msgstr "Ungültige Zeichen in Raum- oder Benutzernamen"
+
+#: spin_cmds.c:91
+msgid "Invalid conversation name, something went wrong here..."
+msgstr "Falscher Unterhaltungsname, irgendwas lief hier schief..."
+
+#: spin_cmds.c:317
+msgid "Invalid ban expression"
+msgstr "Ungültiger Ban Ausdruck"
+
+#: spin_cmds.c:379
+msgid "/(away|back): Marks you as being back"
+msgstr "/(away|back): Markiert,dass du zurück bist"
+
+#: spin_cmds.c:383
+msgid "/(away|afk) REASON: Marks you as being away"
+msgstr "/(away|afk) GRUND: Markiert,dass du weg bist"
+
+#: spin_cmds.c:388
+msgid "/(ignore|ig|block) USER: Ignores the given user"
+msgstr "/(ignore|ig|block) BENUTZER: Ignoriert den Benutzer"
+
+#: spin_cmds.c:392
+msgid "/(unignore|unig|unblock) USER: Unignores the given user"
+msgstr ""
+"/(unignore|unig|unblock) BENUTZER: Hebt die Ignorierung des Benutzers auf"
+
+#: spin_cmds.c:397
+msgid "/join ROOMNAME: Joins the given room"
+msgstr "/join RAUMNAME: Betritt den Raum"
+
+#: spin_cmds.c:402
+msgid "/msg USER TEXT: Messages the user"
+msgstr "/msg BENUTZER NACHICHT: Sendet die Nachicht an den Benutzer"
+
+#: spin_cmds.c:406
+msgid "/msg USER: Opens a message window to the user"
+msgstr "/msg BENUTZER: Öffnet ein Nachichtenfenster zu dem Benutzer"
+
+#: spin_cmds.c:411
+msgid "/mail USER: Opens a new mail to the user"
+msgstr "/mail BENUTZER: Öffnet ein Mailfenster zu dem Benutzer"
+
+#: spin_cmds.c:415
+msgid "/mail: Opens a new mail to the conversion partner"
+msgstr "/mail: Öffnet ein Mailfenster zum Chatpartner"
+
+#: spin_cmds.c:420
+msgid "/gift USER: Opens a new gift for the user"
+msgstr "/gift BENUTZER: Öffnet das Geschenkefenster für Benutzer"
+
+#: spin_cmds.c:424
+msgid "/gift: Opens a new gift for the conversion partner"
+msgstr "/gift: Öffnet das Geschenkefenster für den Chatpartner"
+
+#: spin_cmds.c:430
+msgid "/(servkick|sk) USER: Server kick"
+msgstr "/(servkick|sk) BENUTZER: Server Kick"
+
+#: spin_cmds.c:434
+msgid "/(srvkickban|skb) USER: Server kick+ban"
+msgstr "/(srvkickban|skb) BENUTZER: Server kick+ban"
+
+#: spin_cmds.c:438
+msgid "/(srvmute|sm) USER: Server mute"
+msgstr "/(srvmute|sm) BENUTZER: Server mute"
+
+#: spin_cmds.c:443
+msgid "/banlist: Receive the ban list"
+msgstr "/banlist: Empfange die Bannliste"
+
+#: spin_cmds.c:446
+msgid "/unreglock: ???"
+msgstr "/unreglock: ???"
+
+#: spin_cmds.c:450
+msgid "/op USER: Gives OP to the user"
+msgstr "/op BENUTZER: Gibt dem Benutzer OP Rechte"
+
+#: spin_cmds.c:453
+msgid "/deop USER: Removes OP from the user"
+msgstr "/deop BENUTZER: Entfernt OP Rechte von dem Benutzer"
+
+#: spin_cmds.c:456
+msgid "/mute USER: Mutes the user"
+msgstr "/mute BENUTZER: Schaltet den Benutzer stumm"
+
+#: spin_cmds.c:459
+msgid "/unmute USER: Unmutes the user"
+msgstr "/unmute BENUTZER: Hebt die Stummschaltung des Benutzers auf"
+
+#: spin_cmds.c:463
+msgid "/(kick|k) USER: Kicks a user"
+msgstr "/(kick|k) BENUTZER: Kick"
+
+#: spin_cmds.c:467
+msgid "/(kickban|kb) USER: Kicks+bans a user"
+msgstr "/(kickban|kb) BENUTZER: Kick+ban"
+
+#: spin_cmds.c:471
+msgid "/(unban|deban) USER: Unbans a user"
+msgstr "/(unban|deban) BENUTZER: Unban"
+
+#: spin_cmds.c:474
+msgid "/ban IP: Bans a IP address"
+msgstr "/ban IP: Ban"
+
+#: spin_cmds.c:478
+msgid "/warn USER REASON: Warns a user"
+msgstr "/warn BENUTZER GRUND: Verwarnt den Benutzer"
+
+#: spin_cmds.c:486
+msgid "Executes the emote command"
+msgstr "Führt das Emote Kommando aus"
+
+#, fuzzy
+#~ msgid "Server kick"
+#~ msgstr "Server"
+
+#, fuzzy
+#~ msgid "Server mute"
+#~ msgstr "Server"
+
+#~ msgid "Invalid prefs entry received"
+#~ msgstr "Ungültigen Eintrag in den Einstellungen empfangen"
+
+#~ msgid "HTTP Error: %li"
+#~ msgstr "HTTP Fehler: %li"
