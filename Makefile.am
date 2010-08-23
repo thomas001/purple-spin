@@ -15,6 +15,6 @@ ACLOCAL_AMFLAGS = -I m4
 #EXTRA_DIST = config.rpath m4/ChangeLog 
 
 if USE_PIDGIN
-spin_la_CFLAGS += @PIDGIN_CFLAGS@
-spin_la_LDFLAGS += @PIDGIN_LIBS@
+libspin_la_CFLAGS += @PIDGIN_CFLAGS@
+libspin_la_LDFLAGS += @PIDGIN_LIBS@
 endif
