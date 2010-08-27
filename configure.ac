@@ -1,5 +1,5 @@
-AC_INIT([purple-spin],[1.0],[thomas weidner <thomas_weidner@gmx.de>])
-AM_INIT_AUTOMAKE
+AC_INIT([purple-spin],[1.0],[],[],[http://thomas001.github.com/purple-spin/])
+AM_INIT_AUTOMAKE([foreign])
 
 AC_USE_SYSTEM_EXTENSIONS
 AC_CONFIG_MACRO_DIR([m4])
@@ -48,8 +48,12 @@ PKG_CHECK_MODULES(PURPLE,
 AM_PATH_XML2(,,[AC_MSG_ERROR([libxml2 not found])])
 
 PKG_CHECK_MODULES(PIDGIN,[pidgin >= 2.5.7],
-  [have_pidgin=yes],
-  [have_pidgin=no])
+  [have_pidgin=yes
+   PIDGIN_DATADIR="`$PKG_CONFIG --variable=datadir pidgin`"],
+  [have_pidgin=no
+   PIDGIN_DATADIR="$datadir"])
+
+AC_SUBST([PIDGIN_DATADIR])
 
 AC_ARG_WITH([pidgin],
   AC_HELP_STRING([--with-pidgin],[enable support for some pidgin dialogs]),
@@ -74,6 +78,6 @@ AS_IF(
 AM_CONDITIONAL(USE_PIDGIN,[test "x$use_pidgin" != xno])
 
 AC_CONFIG_HEADERS([config.h])
-AC_CONFIG_FILES([Makefile po/Makefile.in])
+AC_CONFIG_FILES([Makefile po/Makefile.in pixmaps/Makefile])
 
 AC_OUTPUT
